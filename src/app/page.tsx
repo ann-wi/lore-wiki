@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import worldBkg from '../../public/world-bkg.jpg';
+import map from '../../public/map.jpg';
 
 export default function Home() {
   return (
@@ -9,10 +9,10 @@ export default function Home() {
       </header>
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
-          src={worldBkg}
-          alt="world background"
-          width={1000}
-          height={1000}
+          src={map}
+          alt="map area"
+          width={600}
+          height={500}
           className="w-full h-full object-cover"
         />
         <h2 className="text-4xl font-bold">Introduction</h2>
@@ -24,6 +24,8 @@ export default function Home() {
         </div>
         <h3>Future updates (list is not final)</h3>
         <ul className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
+          <li className="mb-2 tracking-[-.01em]">Global naming changes</li>
+          <li className="mb-2 tracking-[-.01em]">List of characters</li>
           <li className="mb-2 tracking-[-.01em]">List of locations</li>
           <li className="mb-2 tracking-[-.01em]">List of items</li>
         </ul>

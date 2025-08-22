@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Tall Nature of East",
+    "description": "Secluded lands with dark woods and high mountains. Considered to be area of evil alignment characters, war criminals, poiseners, thiefs. Nevertheless, rich with crafts like: jewelry, textile, etc.",
+    "ruler": "Jarls and several guilds"
+  },
+  {
+    "id": 2,
+    "name": "High roads",
+    "description": "Area between north and south. Famous for Silver Castle and its bridge. Travellers have been using its roads forever. Known for trade, merchants and guilds. Lays on particularly high cliffs.",
+    "ruler": "Fellowship of merchants and Fighters guild"
+  }
+]
